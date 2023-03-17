@@ -1,0 +1,38 @@
+.formInput{
+    width: 500px;
+    margin: 150px auto;
+
+    input{
+        width: 100%;
+        padding: 15px;
+       margin: 15px 0;
+    }
+}
+.search{
+    width: 500px;
+    margin: 0 auto;
+    input{
+        width: 80%;
+    }
+}
+.products{
+    width: 1000px;
+    margin: 0 auto;
+   display: grid;
+   gap: 20px;
+   grid-template-columns: 35% 35% 35%;
+ 
+
+
+}
+   .inform{
+    width: 350px;
+    border-radius: 15px;
+    &:hover{
+        background: #0F172A;
+        color: white;
+       }
+
+}
+
+
